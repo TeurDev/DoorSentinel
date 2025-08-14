@@ -1,0 +1,304 @@
+{
+  "login": {
+    "start": "Iniciar sesión",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Contraseña",
+    "loginButton": "Iniciar sesión",
+    "noAccountRegister": "¿No tienes cuenta? Regístrate",
+    "errorTitle": "Error",
+    "fillAllFields": "Por favor, rellena todos los campos",
+    "loginFailed": "Login fallido"
+  },
+"register": {
+    "title": "Crear cuenta",
+    "namePlaceholder": "Nombre",
+    "emailPlaceholder": "Email",
+    "confirmEmailPlaceholder": "Confirmar email",
+    "passwordPlaceholder": "Contraseña",
+    "confirmPasswordPlaceholder": "Confirmar contraseña",
+    "errorTitle": "Error",
+    "invalidEmail": "Introduce un correo válido",
+    "emailsDontMatch": "Los correos no coinciden",
+    "weakPassword": "La contraseña debe tener al menos 8 caracteres, con una mayúscula, una minúscula y un número",
+    "passwordsDontMatch": "Las contraseñas no coinciden",
+    "registrationFailed": "Registro fallido",
+    "registerButton": "Registrar",
+    "haveAccountLogin": "¿Ya tienes cuenta? Iniciar sesión"
+  },
+"welcomeHelp": {
+    "title": "¡Bienvenido a DoorSentinel!",
+    "subtitle": "Explora las funciones principales:",
+    "features": [
+      {
+        "title": "Notificaciones en tiempo real",
+        "description": "Recibe alertas instantáneas cada vez que una puerta se abra, incluso en segundo plano.",
+        "details": ["Alertas personalizables", "Histórico por dispositivo"]
+      },
+      {
+        "title": "Historial detallado",
+        "description": "Accede al registro completo de aperturas y bloqueos con timestamps.",
+        "details": ["Filtrar por fecha", "Exportar datos"]
+      },
+      {
+        "title": "Gestión sencilla",
+        "description": "Añade y configura tus dispositivos ESP32 en segundos mediante QR.",
+        "details": ["Escaneo QR", "Edición de nombres"]
+      },
+      {
+        "title": "Seguridad avanzada",
+        "description": "Activa el modo bloqueo para alertas críticas solo cuando lo necesites.",
+        "details": ["Desbloqueo remoto", "Notificaciones urgentes"]
+      }
+    ],
+    "button": "Entendido"
+  },
+  "settingsGeneral": {
+    "headerTitle": "Ajustes",
+    "sectionManage": "Administrar",
+    "account": "Cuenta",
+    "sectionPreferences": "Preferencias",
+    "theme": "Tema",
+    "language": "Idioma",
+    "chooseLanguage": "Selecciona un idioma",
+    "sectionOther": "Otros",
+    "privacy": "Privacidad y Términos de Uso",
+    "help": "Ayuda",
+    "logout": "Cerrar sesión",
+    "modalEnglish": "English",
+    "modalSpanish": "Español",
+    "modalRussian": "Русский",
+    "cancel": "Cancelar",
+    "modalLight": "Claro",
+    "modalDark": "Oscuro",
+    "chooseTheme": "Selecciona un tema"
+  },
+"home": {
+    "errorLoadFavsTitle": "Error",
+    "errorLoadFavsMessage": "No se pudieron cargar los favoritos",
+    "errorToggleStateTitle": "Error",
+    "errorToggleStateMessage": "No se pudo cambiar el estado",
+    "confirmDeleteTitle": "Eliminar favorito",
+    "confirmDeleteMessage": "¿Quieres eliminar \"{{name}}\" de tus favoritos?",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "device": "Dispositivo",
+    "group": "Grupo",
+    "statusLocked": "Estado: Bloqueado",
+    "statusUnlocked": "Estado: Desbloqueado",
+    "noMainFavorite": "No tienes ningún favorito principal. Toca el círculo para añadir uno.",
+    "drawerDevices": "Dispositivos",
+    "drawerGroups": "Grupos"
+  },
+"deviceSelector": {
+    "errorLoadDevicesTitle": "Error",
+    "errorLoadDevicesMessage": "No se pudieron cargar los dispositivos",
+    "statusLocked": "Estado: Bloqueado",
+    "statusUnlocked": "Estado: Desbloqueado",
+    "successTitle": "Éxito",
+    "successMain": "Dispositivo marcado como favorito principal",
+    "successList": "Dispositivo añadido a favoritos",
+    "errorAddTitle": "Error",
+    "errorAddMessage": "No se pudo añadir a favoritos",
+    "emptyMessage": "No hay dispositivos disponibles para favorito.",
+    "cancel": "Cancelar"
+  },
+"deviceSettings": {
+    "errorLoadHistory": "No se pudo cargar el historial",
+    "warningUnassignTitle": "Desvincular dispositivo",
+    "warningUnassignMessage": "¿Estás seguro de que quieres desvincular \"{{name}}\"?",
+    "cancel": "Cancelar",
+    "unassign": "Desvincular",
+    "successUnassignTitle": "¡Hecho!",
+    "successUnassignMessage": "Dispositivo desvinculado con éxito.",
+    "errorUnassignTitle": "Error",
+    "errorUnassignMessage": "No se pudo desvincular el dispositivo.",
+    "renameTitle": "Nuevo nombre",
+    "renameEmptyErrorTitle": "Error",
+    "renameEmptyErrorMessage": "El nombre no puede estar vacío.",
+    "successRenameTitle": "¡Hecho!",
+    "successRenameMessage": "Nombre actualizado correctamente.",
+    "errorRenameTitle": "Error",
+    "errorRenameMessage": "No se pudo actualizar el nombre.",
+    "emptyHistory": "No hay registros aún",
+    "statusNotified": "Notificado",
+    "statusRegistered": "Registrado",
+    "back": "Volver atrás",
+    "eventHistory": "Historial de Eventos"
+  },
+"devices": {
+    "loadError": "No se pudieron cargar los dispositivos",
+    "errorTitle": "Error",
+    "enterSerialNumber": "Introduce el número de serie",
+    "successTitle": "Éxito",
+    "deviceAdded": "Dispositivo añadido correctamente",
+    "assignError": "No se pudo asignar",
+    "toggleError": "No se pudo cambiar el estado",
+    "myDevices": "Mis Dispositivos",
+    "noDevices": "No tienes dispositivos",
+    "addDevice": "Agregar dispositivo",
+    "serialNumberPlaceholder": "Número de serie",
+    "addDeviceButton": "Añadir dispositivo",
+    "cancel": "Cancelar",
+    "status": "Estado:",
+    "locked": "Bloqueado",
+    "unlocked": "Desbloqueado"
+  },
+"groups": {
+    "loadError": "No se pudieron cargar los grupos",
+    "errorTitle": "Error",
+    "successTitle": "Éxito",
+    "groupMarkedPrincipal": "Grupo marcado como favorito principal",
+    "groupMarkedList": "Grupo marcado como favorito de lista",
+    "addFavoriteError": "No se pudo añadir a favoritos",
+    "status": "Estado:",
+    "locked": "Bloqueado",
+    "unlocked": "Desbloqueado",
+    "noGroups": "No hay grupos disponibles para favorito.",
+    "cancel": "Cancelar"
+  },
+"groupDetail": {
+    "errorTitle": "Error",
+    "confirmTitle": "Confirmar",
+    "confirmDelete": "¿Eliminar este grupo?",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "selectDevice": "Selecciona un dispositivo",
+    "successTitle": "Éxito",
+    "deviceAdded": "Dispositivo agregado",
+    "addDeviceError": "No se pudo agregar",
+    "deviceRemoved": "Dispositivo quitado",
+    "removeDeviceError": "No se pudo quitar",
+    "emptyName": "Nombre vacío",
+    "nameUpdated": "Nombre actualizado",
+    "renameError": "No se pudo renombrar",
+    "newGroupNamePlaceholder": "Nuevo nombre del grupo",
+    "updateName": "Actualizar nombre",
+    "groupInfoTitle": "Información del grupo",
+    "status": "Estado:",
+    "locked": "🔒 Bloqueado",
+    "unlocked": "🔓 Desbloqueado",
+    "serial": "Serial:",
+    "groupDevicesTitle": "Dispositivos del grupo",
+    "noDevices": "Sin dispositivos",
+    "addDeviceTitle": "Añadir dispositivo",
+    "selectDeviceButton": "Seleccionar dispositivo",
+    "groupActionsTitle": "Acciones del grupo",
+    "lock": "Bloquear",
+    "unlock": "Desbloquear",
+    "eventHistoryTitle": "Historial de eventos",
+    "noEvents": "Sin eventos",
+    "back": "Volver",
+    "logout": "Cerrar sesión",
+    "noAvailableDevices": "No hay dispositivos disponibles",
+    "addFavoriteError": "No se pudo añadir a favoritos",
+    "renameTitle": "Renombrar grupo",
+    "save": "Guardar",
+    "addDevice": "Añadir dispositivo"
+  },
+"groupList": {
+    "errorTitle": "Error",
+    "loadError": "No se pudieron cargar los grupos",
+    "headerTitle": "Mis Grupos",
+    "noGroups": "No tienes grupos",
+    "addGroup": "Agregar grupo",
+    "emptyNameError": "El nombre del grupo no puede estar vacío",
+    "createError": "Hubo un problema al crear el grupo",
+    "newNamePlaceholder": "Nombre del nuevo grupo",
+    "createButton": "Crear grupo",
+    "cancel": "Cancelar",
+    "toggleLockError": "No se pudo cambiar el estado del grupo"
+  },
+
+  
+  "settingsAccount": {
+    "headerTitle": "Mi Perfil",
+    "type": "Tipo",
+    "name": "Nombre",
+    "serial": "Serial",
+    "deviceCount": "Nº Dispositivos",
+    "loading": "Cargando…",
+    "locked": "Bloqueado",
+    "unlocked": "Desbloqueado",
+    "primaryFavorite": "Favorito Principal",
+    "myFavorites": "Mis Favoritos",
+    "device": "Dispositivo",
+    "group": "Grupo",
+    "errorProfile": "No se pudo cargar el perfil.",
+    "errorTitle": "Error",
+    "unexpectedError": "Ocurrió un error inesperado."
+  },
+
+  "settingsPrivacy": {
+    "headerTitle": "Privacidad y Términos",
+
+    "sectionPrivacy": "Política de Privacidad",
+    "contentPrivacyIntro": "Su privacidad es fundamental para nosotros. Recopilamos, usamos y almacenamos información personal únicamente para los fines específicos que se describen a continuación:",
+    "collectHeading": "1. Información que Recopilamos",
+    "collectText": "Cuando se registra o utiliza ciertas funciones, podemos recopilar:",
+    "collectPoint1": "Su nombre, dirección de correo electrónico y número de teléfono.",
+    "collectPoint2": "Identificadores de dispositivos y datos de uso (páginas visitadas, funciones utilizadas, marcas de tiempo).",
+    "collectPoint3": "Información automáticamente mediante cookies y tecnologías similares.",
+
+    "useHeading": "2. Cómo Usamos Su Información",
+    "useTextIntro": "Utilizamos sus datos personales para:",
+    "usePoint1": "Proporcionar y mantener los servicios que solicita.",
+    "usePoint2": "Autenticar su identidad y proteger contra fraudes.",
+    "usePoint3": "Enviarle actualizaciones importantes, notificaciones y materiales promocionales (puede darse de baja en cualquier momento).",
+    "usePoint4": "Analizar tendencias de uso, diagnosticar problemas técnicos y mejorar nuestra plataforma.",
+
+    "sharingHeading": "3. Compartición de Datos y Terceros",
+    "sharingTextIntro": "Nunca vendemos su información personal. Podemos compartir datos con:",
+    "sharingPoint1": "Proveedores de servicios que realizan funciones en nuestro nombre (por ejemplo, envío de correos electrónicos, análisis).",
+    "sharingPoint2": "Autoridades legales cuando lo exija la ley o para proteger nuestros derechos.",
+    "sharingPoint3": "Otros usuarios, solo si elige compartir un dispositivo o grupo con ellos.",
+
+    "securityHeading": "4. Seguridad de los Datos",
+    "securityText": "Implementamos medidas de seguridad estándar de la industria (cifrado en tránsito y en reposo, controles de acceso, monitoreo) para proteger sus datos. Sin embargo, ningún método de transmisión por Internet es completamente seguro.",
+
+    "rightsHeading": "5. Sus Derechos",
+    "rightsTextIntro": "Usted tiene derecho a:",
+    "rightsPoint1": "Acceder, corregir o eliminar sus datos personales.",
+    "rightsPoint2": "Restringir u oponerse a ciertos tipos de procesamiento.",
+    "rightsPoint3": "Retirar el consentimiento para comunicaciones de marketing.",
+    "rightsPoint4": "Exportar sus datos en formato legible por máquina.",
+
+    "retentionHeading": "6. Retención",
+    "retentionText": "Conservamos sus datos personales solo durante el tiempo necesario para cumplir con los fines descritos anteriormente o para cumplir con obligaciones legales.",
+
+    "childrenHeading": "7. Privacidad de Menores",
+    "childrenText": "Nuestros servicios no están dirigidos a menores de 16 años. No recopilamos conscientemente datos de menores.",
+
+    "sectionTerms": "Términos de Uso",
+    "contentTermsIntro": "Bienvenido a nuestra aplicación. Al acceder o utilizar nuestros servicios, usted acepta estar sujeto a estos Términos de Uso. Léalos detenidamente:",
+
+    "acceptanceHeading": "1. Aceptación de Términos",
+    "acceptanceText": "Al crear una cuenta o utilizar cualquier función, reconoce que ha leído, comprendido y acepta estos términos.",
+
+    "accountHeading": "2. Responsabilidad de la Cuenta",
+    "accountText": "Usted es responsable de mantener la confidencialidad de sus credenciales de acceso y de cualquier actividad que ocurra en su cuenta. Notifíquenos inmediatamente si sospecha un uso no autorizado.",
+
+    "allowedHeading": "3. Uso Permitido",
+    "allowedTextIntro": "Puede usar la aplicación solo para fines legales y de acuerdo con estos términos. Usted acepta no:",
+    "allowedPoint1": "Realizar ingeniería inversa, descompilar o intentar extraer el código fuente.",
+    "allowedPoint2": "Utilizar el servicio para acosar, difamar o infringir los derechos de otros.",
+    "allowedPoint3": "Cargar virus u otro código malicioso.",
+
+    "ipHeading": "4. Propiedad Intelectual",
+    "ipText": "Todo el contenido, marcas registradas y datos dentro de la aplicación pertenecen a nosotros o a nuestros otorgantes de licencia. No puede reproducir, distribuir o crear obras derivadas sin nuestro permiso expreso por escrito.",
+
+    "terminationHeading": "5. Terminación",
+    "terminationText": "Nos reservamos el derecho de suspender o terminar su acceso en cualquier momento, sin previo aviso, si viola estos términos o si creemos que sus acciones pueden dañar el servicio o a otros usuarios.",
+
+    "disclaimerHeading": "6. Renuncias y Limitación de Responsabilidad",
+    "disclaimerText": "El servicio se proporciona “tal cual” sin garantías de ningún tipo. No garantizamos acceso ininterrumpido ni que el servicio esté libre de errores. En la máxima medida permitida por la ley, renunciamos a toda responsabilidad por cualquier daño que surja de su uso del servicio.",
+
+    "changesHeading": "7. Cambios en los Términos",
+    "changesText": "Podemos modificar estos términos en cualquier momento. Le notificaremos los cambios importantes por correo electrónico o mediante una notificación en la aplicación. El uso continuado después de dichos cambios constituye aceptación.",
+
+    "lawHeading": "8. Ley Aplicable",
+    "lawText": "Estos términos se rigen por las leyes de su jurisdicción (por ejemplo, California, EE. UU.) sin considerar principios de conflicto de leyes.",
+
+    "back": "Volver"
+  }
+
+}

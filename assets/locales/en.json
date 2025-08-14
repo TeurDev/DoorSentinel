@@ -1,0 +1,305 @@
+{
+
+  "login": {
+    "start": "Log In",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "loginButton": "Log In",
+    "noAccountRegister": "Don't have an account? Register",
+    "errorTitle": "Error",
+    "fillAllFields": "Please fill in all fields",
+    "loginFailed": "Login failed"
+  },
+  "register": {
+    "title": "Create Account",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email",
+    "confirmEmailPlaceholder": "Confirm Email",
+    "passwordPlaceholder": "Password",
+    "confirmPasswordPlaceholder": "Confirm Password",
+    "errorTitle": "Error",
+    "invalidEmail": "Please enter a valid email",
+    "emailsDontMatch": "Emails do not match",
+    "weakPassword": "Password must be at least 8 characters, include an uppercase letter, a lowercase letter, and a number",
+    "passwordsDontMatch": "Passwords do not match",
+    "registrationFailed": "Registration failed",
+    "registerButton": "Register",
+    "haveAccountLogin": "Already have an account? Log in"
+  },
+"welcomeHelp": {
+    "title": "Welcome to DoorSentinel!",
+    "subtitle": "Explore the main features:",
+    "features": [
+      {
+        "title": "Real-time notifications",
+        "description": "Receive instant alerts whenever a door is opened, even in the background.",
+        "details": ["Customizable alerts", "Per-device history"]
+      },
+      {
+        "title": "Detailed history",
+        "description": "Access a full log of opens and locks with timestamps.",
+        "details": ["Filter by date", "Export data"]
+      },
+      {
+        "title": "Easy management",
+        "description": "Add and configure your ESP32 devices in seconds via QR.",
+        "details": ["QR scanning", "Name editing"]
+      },
+      {
+        "title": "Advanced security",
+        "description": "Activate lockdown mode for critical alerts only when you need them.",
+        "details": ["Remote unlock", "Urgent notifications"]
+      }
+    ],
+    "button": "Got it"
+  },
+"settingsGeneral": {
+    "headerTitle": "Settings",
+    "sectionManage": "Manage",
+    "account": "Account",
+    "sectionPreferences": "Preferences",
+    "theme": "Theme",
+    "language": "Language",
+    "chooseLanguage": "Choose a language",
+    "sectionOther": "Other",
+    "privacy": "Privacy & Terms of Use",
+    "help": "Help",
+    "logout": "Log Out",
+    "modalEnglish": "English",
+    "modalSpanish": "Español",
+    "modalRussian": "Русский",
+    "cancel": "Cancel",
+    "modalLight": "Light",
+    "modalDark": "Dark",
+    "chooseTheme": "Choose a theme"
+  },
+"home": {
+    "errorLoadFavsTitle": "Error",
+    "errorLoadFavsMessage": "Could not load favorites",
+    "errorToggleStateTitle": "Error",
+    "errorToggleStateMessage": "Could not change state",
+    "confirmDeleteTitle": "Delete favorite",
+    "confirmDeleteMessage": "Do you want to remove \"{{name}}\" from your favorites?",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "device": "Device",
+    "group": "Group",
+    "statusLocked": "Status: Locked",
+    "statusUnlocked": "Status: Unlocked",
+    "noMainFavorite": "You don't have a main favorite. Tap the circle to add one.",
+    "drawerDevices": "Devices",
+    "drawerGroups": "Groups"
+  },
+"deviceSelector": {
+    "errorLoadDevicesTitle": "Error",
+    "errorLoadDevicesMessage": "Could not load devices",
+    "statusLocked": "Status: Locked",
+    "statusUnlocked": "Status: Unlocked",
+    "successTitle": "Success",
+    "successMain": "Device set as main favorite",
+    "successList": "Device added to favorites list",
+    "errorAddTitle": "Error",
+    "errorAddMessage": "Could not add to favorites",
+    "emptyMessage": "No devices available for favorite.",
+    "cancel": "Cancel"
+  },
+"deviceSettings": {
+    "errorLoadHistory": "Could not load history",
+    "warningUnassignTitle": "Unassign device",
+    "warningUnassignMessage": "Are you sure you want to unassign \"{{name}}\"?",
+    "cancel": "Cancel",
+    "unassign": "Unassign",
+    "successUnassignTitle": "Success",
+    "successUnassignMessage": "Device successfully unassigned.",
+    "errorUnassignTitle": "Error",
+    "errorUnassignMessage": "Could not unassign the device.",
+    "renameTitle": "New name",
+    "renameEmptyErrorTitle": "Error",
+    "renameEmptyErrorMessage": "Name cannot be empty.",
+    "successRenameTitle": "Success",
+    "successRenameMessage": "Name updated successfully.",
+    "errorRenameTitle": "Error",
+    "errorRenameMessage": "Could not update name.",
+    "emptyHistory": "No records yet",
+    "statusNotified": "Notified",
+    "statusRegistered": "Registered",
+    "back": "Go back",
+    "eventHistory": "Event History"
+  },
+"devices": {
+    "loadError": "Could not load devices",
+    "errorTitle": "Error",
+    "enterSerialNumber": "Enter serial number",
+    "successTitle": "Success",
+    "deviceAdded": "Device added successfully",
+    "assignError": "Could not assign device",
+    "toggleError": "Could not change status",
+    "myDevices": "My Devices",
+    "noDevices": "You have no devices",
+    "addDevice": "Add device",
+    "serialNumberPlaceholder": "Serial number",
+    "addDeviceButton": "Add device",
+    "cancel": "Cancel",
+    "status": "Status:",
+    "locked": "Locked",
+    "unlocked": "Unlocked"
+  },
+"groups": {
+    "loadError": "Could not load groups",
+    "errorTitle": "Error",
+    "successTitle": "Success",
+    "groupMarkedPrincipal": "Group marked as main favorite",
+    "groupMarkedList": "Group marked as list favorite",
+    "addFavoriteError": "Could not add to favorites",
+    "status": "Status:",
+    "locked": "Locked",
+    "unlocked": "Unlocked",
+    "noGroups": "No groups available for favorites.",
+    "cancel": "Cancel"
+  },
+"groupDetail": {
+    "errorTitle": "Error",
+    "confirmTitle": "Confirm",
+    "confirmDelete": "Delete this group?",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "selectDevice": "Select a device",
+    "successTitle": "Success",
+    "deviceAdded": "Device added",
+    "addDeviceError": "Could not add",
+    "deviceRemoved": "Device removed",
+    "removeDeviceError": "Could not remove",
+    "emptyName": "Name is empty",
+    "nameUpdated": "Name updated",
+    "renameError": "Could not rename",
+    "newGroupNamePlaceholder": "New group name",
+    "updateName": "Update name",
+    "groupInfoTitle": "Group Information",
+    "status": "Status:",
+    "locked": "🔒 Locked",
+    "unlocked": "🔓 Unlocked",
+    "serial": "Serial:",
+    "groupDevicesTitle": "Group Devices",
+    "noDevices": "No devices",
+    "addDeviceTitle": "Add Device",
+    "selectDeviceButton": "Select Device",
+    "groupActionsTitle": "Group Actions",
+    "lock": "Lock",
+    "unlock": "Unlock",
+    "eventHistoryTitle": "Event History",
+    "noEvents": "No events",
+    "back": "Back",
+    "logout": "Log Out",
+    "noAvailableDevices": "No devices available",
+    "addFavoriteError": "Could not add to favorites",
+    "renameTitle": "Rename Group",
+    "save": "Save",
+    "addDevice": "Add Device"
+  },
+"groupList": {
+    "errorTitle": "Error",
+    "loadError": "Could not load groups",
+    "headerTitle": "My Groups",
+    "noGroups": "You have no groups",
+    "addGroup": "Add group",
+    "emptyNameError": "Group name cannot be empty",
+    "createError": "There was a problem creating the group",
+    "newNamePlaceholder": "New group name",
+    "createButton": "Create group",
+    "cancel": "Cancel",
+    "toggleLockError": "Could not change group status"
+  },
+
+  
+  "settingsAccount": {
+    "headerTitle": "My Profile",
+    "type": "Type",
+    "name": "Name",
+    "serial": "Serial",
+    "deviceCount": "Nº Device",
+    "loading": "Loading…",
+    "locked": "Locked",
+    "unlocked": "Unlocked",
+    "primaryFavorite": "Primary Favorite",
+    "myFavorites": "My Favorites",
+    "device": "Device",
+    "group": "Group",
+    "errorProfile": "Could not load profile.",
+    "errorTitle": "Error",
+    "unexpectedError": "An unexpected error occurred."
+  },
+"settingsPrivacy": {
+    "headerTitle": "Privacy & Terms",
+
+    "sectionPrivacy": "Privacy Policy",
+    "contentPrivacyIntro": "Your privacy is critically important to us. We collect, use, and store personal information only for the specific purposes described below:",
+    "collectHeading": "1. Information We Collect",
+    "collectText": "When you register or use certain features, we may collect:",
+    "collectPoint1": "Your name, email address, and phone number.",
+    "collectPoint2": "Device identifiers and usage data (pages visited, features used, timestamps).",
+    "collectPoint3": "Information automatically through cookies and similar technologies.",
+
+    "useHeading": "2. How We Use Your Information",
+    "useTextIntro": "We use your personal data to:",
+    "usePoint1": "Provide and maintain the services you request.",
+    "usePoint2": "Authenticate your identity and protect against fraud.",
+    "usePoint3": "Send you important updates, notifications, and promotional materials (you can opt out at any time).",
+    "usePoint4": "Analyze usage trends, diagnose technical issues, and enhance our platform.",
+
+    "sharingHeading": "3. Data Sharing and Third Parties",
+    "sharingTextIntro": "We never sell your personal information. We may share data with:",
+    "sharingPoint1": "Service providers who perform functions on our behalf (e.g., email delivery, analytics).",
+    "sharingPoint2": "Legal authorities when required by law or to protect our rights.",
+    "sharingPoint3": "Other users, only if you choose to share a device or group with them.",
+
+    "securityHeading": "4. Data Security",
+    "securityText": "We implement industry-standard security measures (encryption in transit and at rest, access controls, monitoring) to protect your data. However, no method of transmission over the Internet is completely secure.",
+
+    "rightsHeading": "5. Your Rights",
+    "rightsTextIntro": "You have the right to:",
+    "rightsPoint1": "Access, correct, or delete your personal data.",
+    "rightsPoint2": "Restrict or object to certain types of processing.",
+    "rightsPoint3": "Withdraw consent for marketing communications.",
+    "rightsPoint4": "Export your data in machine-readable format.",
+
+    "retentionHeading": "6. Retention",
+    "retentionText": "We retain your personal data only as long as necessary to fulfill the purposes outlined above or to comply with legal obligations.",
+
+    "childrenHeading": "7. Children’s Privacy",
+    "childrenText": "Our services are not directed to children under 16. We do not knowingly collect data from minors.",
+
+    "sectionTerms": "Terms of Use",
+    "contentTermsIntro": "Welcome to our application. By accessing or using our services, you agree to be bound by these Terms of Use. Please read them carefully:",
+
+    "acceptanceHeading": "1. Acceptance of Terms",
+    "acceptanceText": "By creating an account or using any feature, you acknowledge that you have read, understood, and agree to these terms.",
+
+    "accountHeading": "2. Account Responsibility",
+    "accountText": "You are responsible for maintaining the confidentiality of your login credentials and for any activity that occurs under your account. Notify us immediately if you suspect unauthorized use.",
+
+    "allowedHeading": "3. Allowed Use",
+    "allowedTextIntro": "You may use the app only for lawful purposes and in accordance with these terms. You agree not to:",
+    "allowedPoint1": "Reverse engineer, decompile, or attempt to extract source code.",
+    "allowedPoint2": "Use the service to harass, defame, or infringe upon the rights of others.",
+    "allowedPoint3": "Upload viruses or other malicious code.",
+
+    "ipHeading": "4. Intellectual Property",
+    "ipText": "All content, trademarks, and data within the app belong to us or our licensors. You may not reproduce, distribute, or create derivative works without our express written permission.",
+
+    "terminationHeading": "5. Termination",
+    "terminationText": "We reserve the right to suspend or terminate your access at any time, without notice, if you violate these terms or if we believe your actions may harm the service or other users.",
+
+    "disclaimerHeading": "6. Disclaimers and Limitation of Liability",
+    "disclaimerText": "The service is provided “as is” without warranties of any kind. We do not guarantee uninterrupted access or that the service will be error-free. To the maximum extent permitted by law, we disclaim all liability for any damages arising from your use of the service.",
+
+    "changesHeading": "7. Changes to Terms",
+    "changesText": "We may modify these terms at any time. We will notify you of material changes via email or in-app notification. Continued use after such changes constitutes acceptance.",
+
+    "lawHeading": "8. Governing Law",
+    "lawText": "These terms are governed by the laws of your jurisdiction (for example, California, USA) without regard to conflict of law principles.",
+
+    "back": "Back"
+  }
+
+
+}
