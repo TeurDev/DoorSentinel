@@ -5,7 +5,7 @@ A mobile security app developed with **React Native** and **TypeScript** (using 
 
 ## 📸 Screenshots  
 
-![Home Screen](img/image1.png)  
+![Home Screen](image1.png)  
 *Initial screen of the app with login and registration options.* 
 *List of connected devices and their status (locked/unlocked).*
 
