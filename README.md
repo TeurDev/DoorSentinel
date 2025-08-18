@@ -7,7 +7,7 @@ A mobile security app developed with **React Native** and **TypeScript** (using 
 
 ![Home Screen](image1.png)  
 *Initial screen of the app with login and registration options.* 
-*List of connected devices and their status (locked/unlocked).*
+*List of connected devices and their status (locked/unlocked). With dark and light mode*
 
 ## 📖 Detailed Description  
 **DoorSentinel** is an application focused on real-time access monitoring and control.  
