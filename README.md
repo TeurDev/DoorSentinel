@@ -1,5 +1,7 @@
 # DoorSentinel
 
+<a href="README_es.md"> <img src="https://img.shields.io/badge/ES-Versión en Español aquí-blue?style=for-the-badge" alt="ES222"> </a>
+
 ## 📝 Description  
 A mobile security app developed with **React Native** and **TypeScript** (using Expo), allowing real-time monitoring of door openings and closings via ESP32 devices connected to a custom server.
 
