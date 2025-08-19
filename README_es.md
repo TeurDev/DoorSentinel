@@ -1,6 +1,6 @@
 # DoorSentinel
 
-<a href="README_en.md"> <img src="https://img.shields.io/badge/EN-English Version here-red?style=for-the-badge" alt="EN"> </a>
+<a href="README.md"> <img src="https://img.shields.io/badge/EN-English Version here-red?style=for-the-badge" alt="EN"> </a>
 
 ## 📝 Descripción  
 Aplicación móvil de seguridad desarrollada con **React Native** y **TypeScript** (usando Expo), que permite el monitoreo en tiempo real de la apertura y cierre de puertas mediante dispositivos ESP32 conectados a un servidor personalizado.
