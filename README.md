@@ -22,7 +22,7 @@ A mobile security app developed with **React Native** and **TypeScript** (using 
 
 ### 🔧 Main Technologies
 - **Frontend:** React Native + TypeScript + Expo  
-- **[Backend](https://github.com/TeurDev/DoorSentinel-Backend):** Node.js + Express  
+- **[Backend](https://github.com/TeurDev/DoorSentinel-Backend):** Node.js + Express hosted on Render.
 - **Database:** MongoDB  
 - **IoT Devices:** ESP32  
 - **Push Notifications:** Integrated via Expo and custom server  
